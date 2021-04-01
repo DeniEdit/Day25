@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GetRequest extends React.Component {
+class GetRequest extends Component {
     constructor(props) {
         super(props);
         this.state = { totalReactPackages: null };
