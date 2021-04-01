@@ -5,7 +5,7 @@ class GetRequestErrorHandling extends Component {
         super(props);
         this.state = { totalReactPackages: null, errorMessage: null };
     }
-    async componentDidMount() {
+    componentDidMount() {
         fetch('https://api.npms.io/v2/invalid-url')
         .then(async response => {
             const data = await response.json();
