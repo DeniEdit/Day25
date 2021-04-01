@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import './GetRequest';
 import GetRequest from './GetRequest';
 
 function App() {
