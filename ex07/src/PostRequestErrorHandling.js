@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PostRequestErrorHandling extends Component {
+class PostRequestErrorHandling extends React.Component {
     constructor(props) {
         super(props);
         this.state = { articleId: null, errorMessage: null };
