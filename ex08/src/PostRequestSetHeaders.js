@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PostRequestSetHeaders extends Component {
+class PostRequestSetHeaders extends React.Component {
     constructor(props) {
         super(props);
         this.state = { articleId: null };
