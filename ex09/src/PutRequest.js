@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class PutRequest extends Component {
+class PutRequest extends React.Component {
     constructor(props) {
         super(props);
         this.state = { postId: null };
